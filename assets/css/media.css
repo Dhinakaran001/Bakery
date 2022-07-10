@@ -1,0 +1,86 @@
+@media(max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        margin: 0px;
+    }
+    nav ul li{
+        padding: 8px 12px;
+    }
+    #header{
+        max-height: 100vh;
+    }
+    #circle{
+        clip-path: circle(450px at right 720px);
+    }
+    #header #header-text{
+        margin-top: 110px;
+    }
+    #header #home #header-text>p{
+        padding-right: 0px;
+    }
+    #header #image{
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+    #header #image>img{
+        height: 270px;
+        width: 290px;
+    }
+
+    /* about */
+    #about #about-text{
+        margin-top: 0px;
+    }
+    #about #image{
+        margin-top: 40px;
+    }
+    #about #image div{
+        margin-left: 0px;
+    }
+
+    /* product */
+    .card{
+    margin-top: 15px;
+    }
+
+    /* contact */
+    #contact .col-md-10{
+        margin-left: 0px;
+    }
+}
+
+/* Tab */
+@media(min-width:768px) and (max-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
+    nav ul li{
+        padding: 10px 12px;
+    }
+    #header{
+        height: 100vh;
+    }
+    #navbarSupportedContent{
+        text-align: center;
+    }
+    #circle{
+        clip-path: circle(700px at right 990px);
+    }
+    #header #home .row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+    }
+    #header #home #header-text>p{
+        padding-right: 0px;
+    }
+    #header #image{
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    #about #about-text{
+        margin-top: 0px;
+    }
+}

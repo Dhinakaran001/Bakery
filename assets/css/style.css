@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #FFF4F5;
+}
+nav ul li{
+    padding-left: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(98, 96, 96, 0.8);
+}
+nav ul li:hover a, .active{
+    color: #f8567c;
+}
+.bg{
+    background-color: #FFF4F5;
+}
+#header{
+    height: 100vh;
+}
+#circle{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #f8567c;
+    clip-path: circle(700px at right 770px);
+}
+#header #home #header-text>h1{
+    font-family: 'Great Vibes', cursive;
+    color: #f8567c;
+    margin: 0px;
+}
+#header #home #header-text>p{
+    padding-right: 60px;
+    padding-bottom: 6px;
+}
+#button a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #fff;
+}
+#button{
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: inline-block;
+    background-color: #f8567c;
+    transition: 0.5s;
+}
+#button:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 4px 18px, rgba(17, 17, 26, 0.2) 0px 8px 26px, rgba(17, 17, 26, 0.2) 0px 16px 58px;
+}
+#header #header-text{
+    margin-top: 160px;
+    z-index: 1;
+}
+#header #image{
+    margin-top: 110px;
+    padding-left: 20px;
+    z-index: 1;
+}
+#header #image>img{
+    height: 420px;
+    width: 450px;
+}
+.scrolled{
+    background-color: #FFF4F5;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* about */
+#about #about-text{
+    margin-top: 120px;
+    padding-left: 20px;
+}
+#about #about-text h3{
+    font-family: 'Great Vibes', cursive;
+    color: #f8567c;
+    font-weight: 600;
+    font-size: 2rem;
+}
+#about #about-text p{
+    font-size: 0.9rem;
+}
+#about #image div{
+    margin-left: 50px;
+}
+
+
+/* product */ 
+#product .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#product .card h5{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #f8567c;
+}
+#product .card p{
+    font-size: small;
+}
+#product .card #overflow{
+    overflow: hidden;
+}
+#product .card img{
+    transition: 0.7s;
+}
+#product .card img:hover{
+    transform: scale(1.1);
+}
+#button2 a{
+    text-decoration: none;
+    font-size: 0.6rem;
+    color: #fff;
+}
+#button2{
+    padding: 8px 15px;
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: inline-block;
+    background-color: #f8567c;
+    transition: 0.5s;
+}
+#button2:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 4px 18px, rgba(17, 17, 26, 0.2) 0px 8px 26px, rgba(17, 17, 26, 0.2) 0px 16px 58px;
+}
+
+/* collections */
+
+
+/* contact */
+#contact .col-md-8{
+    margin-left: 80px;
+}
+#contact form{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+#contact button{
+    background-color: #f8567c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+}
+#contact button:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: scale(1.02);
+}
+#contact .col-md-10{
+    margin-left: 50px;
+}
+
+/* footer */
+#footer p{
+    font-size: 0.8rem;
+}
+#footer i{
+    font-size: 1.5rem;
+    padding: 0px 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+#footer i:hover{
+    transform: scale(1.4);
+}
