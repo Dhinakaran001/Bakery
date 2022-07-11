@@ -97,27 +97,27 @@ nav ul li:hover a, .active{
 }
 
 
-/* product */ 
-#product .card{
+/* special */ 
+#special .card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-#product .card h5{
+#special .card h5{
     font-family: 'Great Vibes', cursive;
     text-align: center;
     font-weight: 600;
     font-size: 1.6rem;
     color: #f8567c;
 }
-#product .card p{
+#special .card p{
     font-size: small;
 }
-#product .card #overflow{
+#special .card #overflow{
     overflow: hidden;
 }
-#product .card img{
+#special .card img{
     transition: 0.7s;
 }
-#product .card img:hover{
+#special .card img:hover{
     transform: scale(1.1);
 }
 #button2 a{
