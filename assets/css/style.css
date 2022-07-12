@@ -8,6 +8,7 @@
 }
 body{
     background: #FFF4F5;
+    overflow-x: hidden;
 }
 nav ul li{
     padding-left: 12px;
@@ -33,6 +34,17 @@ nav ul li:hover a, .active{
     height: 100%;
     background: #f8567c;
     clip-path: circle(700px at right 770px);
+    animation: animation 1s;
+    outline: none;
+    border: none;
+}
+@keyframes animation{
+    from{
+        transform: translateX(700px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 #header #home #header-text>h1{
     font-family: 'Great Vibes', cursive;
